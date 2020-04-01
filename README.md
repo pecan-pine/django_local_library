@@ -1,2 +1,2 @@
 # django_local_library
-Practice website from mozilla
+Practice webbbsite from mozilla
