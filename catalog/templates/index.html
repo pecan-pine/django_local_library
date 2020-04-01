@@ -1,0 +1,20 @@
+{% extends "base_generic.html" %}
+
+{% block title %}<title>Website</title>{% endblock %}
+
+{% block content %}
+  <h1 style = "text-decoration:underline;">Local Library Home</h1>
+  <p>Welcome, {{user}}, to LocalLibrary, a website developed by <em>Smoop</em>!</p>
+  <h2>Dynamic content</h2>
+  <p>The library has the following record counts:</p>
+  <ul>
+    <li><strong>Books:</strong> {{ num_books }}</li>
+    <li><strong>War books:</strong> {{ num_war_books }} </li>
+    <li><strong>Copies:</strong> {{ num_instances }}</li>
+    <li><strong>Copies available:</strong> {{ num_instances_available }}</li>
+    <li><strong>Authors:</strong> {{ num_authors }}</li>
+  </ul>
+  You have visited this site {{ num_visits }} {% if num_visits ==  1 %} time {% else %} times {% endif %}
+{% endblock %}
+
+

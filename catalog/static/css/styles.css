@@ -1,0 +1,18 @@
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.col-sm-2 {
+	border-right:thick solid black;
+	height:100vh;
+	background-color: lightgreen;
+	text-decoration-color: black;
+}
+
+.col-sm-2 a{
+	color:black;
+	text-decoration: underline;
+}
+
