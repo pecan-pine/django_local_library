@@ -25,7 +25,7 @@ SECRET_KEY = 'qj&$2v@ki^5ie8akb5e(00+u2cjd9+@bsnd@(u4x#_gb)y@_4m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["blueberry-surprise-40981.herokuapp.com"]
 
 
 # Application definition
